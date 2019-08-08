@@ -1,5 +1,7 @@
 # BraceExpander
 
+Personal implementation of brace expander.
+
 The program can be compiled from terminal with the following commands:
 
 - g++ -o BraceExpansion /path/to/folder/main/main.cpp /path/to/folder/expander/src/Expander.cpp -std=c++17
