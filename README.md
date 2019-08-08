@@ -2,21 +2,21 @@
 
 The program can be compiled from terminal with the following commands:
 
->> g++ -o BraceExpansion /path/to/folder/main/main.cpp /path/to/folder/expander/src/Expander.cpp -std=c++17
+- g++ -o BraceExpansion /path/to/folder/main/main.cpp /path/to/folder/expander/src/Expander.cpp -std=c++17
 
->> echo "{A,B}" | /path/to/folder/BraceExpantion
+- echo "{A,B}" | /path/to/folder/BraceExpantion
 
 Alternatively from the project folder with CMake (version 3.11 required):
 
->> mkdir build
+- mkdir build
 
->> cd build
+- cd build
 
->> cmake ../
+- cmake ../
 
->> make
+- make
 
->> make check (to run the tests)
+- make check (to run the tests)
 
->> echo "{A,B}"	| ../bin/brace_expander
+- echo "{A,B}"	| ../bin/brace_expander
 
